@@ -5,10 +5,18 @@
     <title>test site</title>
 </head>
 <body>
-    <p>Hello World!!</p>
+    <p>Hello World</p>
 
     <label for="name">Name (4 to 8 characters):</label>
     <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
-    <input type="button" value="GO!">
+    <input type="button" id="go" value="GO!">
+
+    <div>
+    <span>入力したやつ：</span>
+    <span id="output"></span>
+    </div>
+
+    <script src="main.js"></script>
+
 </body>
 </html>
